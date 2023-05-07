@@ -12,10 +12,10 @@ public class video extends volume implements luminosità{
 		this.lumin = lumin;
 	}
 	public void aumentaLumin() {
-		setVolume(++lumin);
+		setLumin(++lumin);
 	}
 	public void diminuisciLumin() {
-		setVolume(--lumin);
+		setLumin(--lumin);
 	}
 	public video(String titolo, int durata,int volume , int lumin) {
 		this.titolo = titolo;
